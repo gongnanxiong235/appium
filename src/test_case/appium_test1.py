@@ -7,4 +7,6 @@ drive=driver_configure ().get_driver ()
 base_drive=Base_page ( drive )
 by=mobileby.MobileBy ()
 
+
 before_test_check ( base_drive=base_drive, by=by )
+
